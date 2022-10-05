@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ partial "header.html" }}
+  {{ partial "navigation.html" }}
+  {{ partial "hero.html" . }}
+    <main aria-role="main" class="content content-container mt-6">
+      <div class="homepage-content">
+        {{.Content}}
+      </div>
+    </main>
+{{ end }}

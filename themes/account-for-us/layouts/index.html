@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{ partial "header.html" }}
+  {{ partial "navigation.html" }}
+    <main aria-role="main">
+
+
+      <section class="hero is-success">
+        <div class="hero-body has-text-centered">
+            <div class="content-container">
+                <div class="block mb-6">
+                  <p class="title">There is an Account For Us.</p>
+                </div>
+                
+                <p class="subtitle">
+                  Faced with financial exclusion, communities literally <strong>bank on each other</strong>.
+                </p>
+                <p class="subtitle">
+                  Every year <strong>$90 Billion</strong> is loaned to friends, family, neighbors, and coworkers.
+                </p>
+                <p class="subtitle">
+                  <a href="" class="button is-link is-rounded is-large">
+                    Start your Account For Us
+                  </a>
+                </p>
+            </div>
+        </div>
+      </section>
+
+
+      <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+      </div>
+    </main>
+{{ end }}

@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Account For Us'
+theme = 'account-for-us'
+[markup.goldmark.renderer]
+unsafe= true

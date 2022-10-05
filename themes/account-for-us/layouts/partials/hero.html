@@ -1,0 +1,10 @@
+<section class="hero {{ .Params.style_classes }}">
+    <div class="hero-body has-text-left">
+        <div class="content-container">
+            <p class="title">{{ .Params.title }}</p>
+            {{ if .Params.subtitle }}
+                <p class="subtitle">{{ .Params.subtitle }}</p>
+            {{ end }}
+        </div>
+    </div>
+  </section>
