@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ partial "header.html" }}
   {{ partial "navigation.html" }}
   <main aria-role="main">
 
@@ -7,18 +6,16 @@
       <div class="hero-body has-text-centered">
         <div class="content-container">
           <div class="block mb-6">
-            <p class="title is-size-2">There is an Account For Us</p>
+            <p class="title is-size-1">There is an Account For Us</p>
+            <img src="/img/people/3-family-tablet.png" style="height: 200px"/>
           </div>
 
-          <div class="box has-text-black has-background-warning p-4 is-size-5" style="margin: 0px auto; margin-bottom: 50px;">
-            <p class="">
-              Every year <strong>$90 Billion</strong> is loaned to friends, family, neighbors, and coworkers.
-            </p>
-
+          <div class="box has-text-black has-background-warning p-4 is-size-5" style="margin: 0px auto; margin-bottom: 50px; max-width: 500px;">
+              People lend <strong>$90 Billion</strong> every year to friends, family, neighbors, and coworkers.
           </div>
 
           <div class="block">
-            {{ partial "join_button.html" }}
+            {{ partial "join_button.html" (dict "style_classes" "is-large is-link")   }}
           </div>
 
         </div>
@@ -27,13 +24,20 @@
 
     <section class="hero has-background-white-ter">
       <div class="hero-body">
+
         <div class="content content-container">
           <div class="columns">
+            
             <div class="column">
-              <div class="box" style="height: 100%;">
+              <div class="box">
                 <div class="block is-size-3 has-text-black has-text-centered">
+
+                  <div class="has-text-centered">
+                    <img src="/img/people/bw/exclude.png"  style="height: 75px;" />
+                  </div>
+
                     <div class="has-text-weight-bold">Mainstream finance</div> 
-                    <span class="pr-1 pl-1 is-italic has-text-weight-bold" style="border-bottom: 2px solid #FF0000;">excludes us</span>
+                    <span class="pr-1 pl-1 is-italic has-text-weight-bold" style="border-bottom: 2px solid #ec4e45;">excludes us</span>
                 </div>
                 <div class="has-text-left">
                   <p><i class="far fa-caret-right pr-2"></i>25 million households in the United States are underbanked</p>
@@ -41,12 +45,18 @@
                 </div>
               </div>
             </div>
+
             <div class="column">
               <div class="box" style="height: 100%;">
                 <div class="content has-text-centered">
+
+                  <div class="has-text-centered">
+                    <img src="/img/people/bw/robber.png"  style="height: 75px;" />
+                  </div>
+
                   <div class="block is-size-3 has-text-black">
                       <div class="has-text-weight-bold">Alternative finance</div> 
-                      <span class="pr-1 pl-1 is-italic has-text-weight-bold" style="border-bottom: 2px solid #FF0000;">exploits us</span>
+                      <span class="pr-1 pl-1 is-italic has-text-weight-bold" style="border-bottom: 2px solid #ec4e45;">exploits us</span>
                   </div>
                   <div class="has-text-left">
                     <p><i class="far fa-caret-right pr-2"></i>Payday lenders extract $9 billion per year from working families</p>
@@ -54,8 +64,13 @@
                 </div>
               </div>
             </div>
+
           </div>
+
+
+
         </div>
+
       </div>
     </section>
 
@@ -64,7 +79,8 @@
       <div class="hero-body has-text-centered">
         <div class="content-container">
           <div class="block mb-6">
-            <p class="title is-size-2">Faced with financial exclusion, communities create their own financial justice, literally banking on each other.</p>
+            <p class="title is-size-2">We create our own financial justice, literally banking on each other.</p>
+            <img src="/img/people/4-family.png" style="height: 200px"/>
           </div>
 
           <div class="block" style="margin: 0px auto; margin-bottom: 50px;">
@@ -74,7 +90,7 @@
           </div>
 
           <div class="block">
-            {{ partial "join_button.html" }}
+            {{ partial "join_button.html" (dict "style_classes" "is-large is-success")   }}
           </div>
 
         </div>
@@ -82,12 +98,16 @@
     </section>
 
     <div class="block content content-container mt-6 p-3">
+      <h1 class="has-text-centered pb-6 has-text-success-dark">
+        <i class="fad fa-chart-network"></i>
+        Social Credit Network
+      </h1>
       <div class="columns">
         <div class="column has-text-centered">
-          <img src="img/screenshots/section-receiving.png" style="height: 500px;" class='screenshot' />
+          <img src="img/screenshots/section-receiving.png" style="height: 300px;" class='screenshot' />
         </div>
         <div class="column">
-          <h1>Social Credit Network</h1>
+          
           <p>
             A central component of formal credit markets is that each borrower knows how much credit they have available at any time. Knowing how much credit a potential borrower has available provides a psychological sense of financial security, even when one is not borrowing.
           </p>
@@ -95,6 +115,7 @@
             Account For Us reveals social credit lines by enabling people to report how much they would be willing to lend others if they needed a loan. The increased visibility into social credit lines will decrease reliance on payday lenders.
           </p>
         </div>
+
       </div>
     </div>
 

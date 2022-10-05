@@ -1,4 +1,4 @@
-<nav class="navbar nav-container mt-3" role="navigation" aria-label="main navigation">
+<nav class="navbar nav-container mt-3 mb-3" role="navigation" aria-label="main navigation">
 
     
     <div class="navbar-brand">
@@ -15,24 +15,52 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="{{ "" | relURL }}">
-                Home
-            </a>
-
             <a class="navbar-item" href="{{ "about" | relURL }}">
                 About
             </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Partners
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a href="/partners/nonprofit" class="navbar-item">
+                        Nonprofit
+                    </a>
+                    <a class="navbar-item">
+                        CDFI
+                    </a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Solutions
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        Cash transfers
+                    </a>
+                    <a class="navbar-item">
+                        Loan guarantees
+                    </a>
+                </div>
+            </div>
+        
         </div>
+
     </div>
 
     <div class="navbar-end">
         <div class="navbar-item">
             <div class="buttons">
-                <a class="button is-primary">
-                    <strong>Sign up</strong>
+                <a class="button is-ghost">
+                    <strong>Log in</strong>
                 </a>
-                <a class="button is-light">
-                    Log in
+                <a class="button is-rounded is-outlined" style="border: 1px solid #CCC;">
+                    <strong>Sign up</strong>
                 </a>
             </div>
         </div>

@@ -1,0 +1,41 @@
+<footer class="footer mt-6 has-background-light has-text-dark">
+    <div class="content has-text-centered">
+        <div class="block is-size-6 mb-6">
+            <p>
+                <i class="fas fa-question-circle"></i>
+                Need help or have a question? 
+            </p>
+            <p>
+                <a href="sms:+14083646306">Send a text message to (408) 364-6306</a>
+            </p>
+        </div>
+    
+        <p>
+            <div class="block">
+                <a href="https://airtable.com/shr5QEZD3F49XruF2" target="_blank">Report a bug <i class="far fa-bug has-text-danger"></i></a>
+            </div>
+            <div class="block">
+                <div id="donate-button-container">
+                    <div id="donate-button"></div>
+                    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                    <script>
+                    PayPal.Donation.Button({
+                        env:'production',
+                        hosted_button_id:'E8WNTEKNCEKG6',
+                        image: {
+                        src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+                        alt:'Donate with PayPal button',
+                        title:'PayPal - The safer, easier way to pay online!',
+                    }
+                    }).render('#donate-button');
+                    </script>
+                </div>
+            </div>
+    
+            <div class="block is-size-6 has-text-grey">
+                Hecho en Long Beach, CA <i class="far fa-umbrella-beach has-text-info"></i>
+            </div>
+    
+        </p>
+    </div>
+    </footer>
