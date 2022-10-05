@@ -4,19 +4,8 @@ date: 2022-10-05T08:53:08-07:00
 layout: "single"
 type: "page"
 draft: false
-subtitle: "This is the subtitle"
-style_classes: "has-background-grey-lighter"
+subtitle: 
+style_classes: "has-background-white-ter"
 ---
 
-This is the about page.
-
-<i class="fas fa-rocket"></i>
-fds
-
-<i class="fas fa-heart"></i>
-
-<div class="box">
-You are in the box.
-</div>
-
-No html.
+Account For Us is being developed at Princeton University where [David Henderson](https://www.linkedin.com/in/davidihenderson/) (founder) is a [Sugarman Practitioner in Residence](https://behavioralpolicy.princeton.edu/news/inaugural-sugarman-fellows-join-center).

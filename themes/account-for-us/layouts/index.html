@@ -3,33 +3,14 @@
   {{ partial "navigation.html" }}
   <main aria-role="main">
 
-    <section class="hero is-warning">
-      <div class="hero-body has-text-centered">
-        <div class="content content-container has-text-centered">
-          <h1>Mainstream finance excludes us</h1>
-          <p>25 million households are underbanked. 45 million people do not have credit scores.</p>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="hero is-info">
-      <div class="hero-body has-text-centered">
-        <div class="content content-container has-text-centered">
-          <h1>Alternative finance exploits us</h1>
-          <p>Payday lenders extract $9 Billion per year from working families</p>
-        </div>
-      </div>
-    </section>
-
     <section class="hero is-success">
       <div class="hero-body has-text-centered">
         <div class="content-container">
           <div class="block mb-6">
-            <p class="title is-size-2">There is an Account For Us.</p>
+            <p class="title is-size-2">There is an Account For Us</p>
           </div>
 
-          <div class="box has-text-black has-background-warning-light p-2 is-size-5" style="max-width: 500px; margin: 0px auto; margin-bottom: 25px;">
+          <div class="box has-text-black has-background-warning p-4 is-size-5" style="margin: 0px auto; margin-bottom: 50px;">
             <p class="">
               Every year <strong>$90 Billion</strong> is loaned to friends, family, neighbors, and coworkers.
             </p>
@@ -37,18 +18,89 @@
           </div>
 
           <div class="block">
-            <a href="" class="button is-link is-rounded is-medium has-text-weight-bold">
-              Start your Account For Us
-            </a>
+            {{ partial "join_button.html" }}
           </div>
 
         </div>
       </div>
     </section>
 
-      <div class="homepage-content">
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
+    <section class="hero has-background-white-ter">
+      <div class="hero-body">
+        <div class="content content-container">
+          <div class="columns">
+            <div class="column">
+              <div class="box" style="height: 100%;">
+                <div class="block is-size-3 has-text-black has-text-centered">
+                    <div class="has-text-weight-bold">Mainstream finance</div> 
+                    <span class="pr-1 pl-1 is-italic has-text-weight-bold" style="border-bottom: 2px solid #FF0000;">excludes us</span>
+                </div>
+                <div class="has-text-left">
+                  <p><i class="far fa-caret-right pr-2"></i>25 million households in the United States are underbanked</p>
+                  <p><i class="far fa-caret-right pr-2"></i>45 million people do not have credit scores</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="height: 100%;">
+                <div class="content has-text-centered">
+                  <div class="block is-size-3 has-text-black">
+                      <div class="has-text-weight-bold">Alternative finance</div> 
+                      <span class="pr-1 pl-1 is-italic has-text-weight-bold" style="border-bottom: 2px solid #FF0000;">exploits us</span>
+                  </div>
+                  <div class="has-text-left">
+                    <p><i class="far fa-caret-right pr-2"></i>Payday lenders extract $9 billion per year from working families</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+
+
+    <section class="hero is-info">
+      <div class="hero-body has-text-centered">
+        <div class="content-container">
+          <div class="block mb-6">
+            <p class="title is-size-2">Faced with financial exclusion, communities create their own financial justice, literally banking on each other.</p>
+          </div>
+
+          <div class="block" style="margin: 0px auto; margin-bottom: 50px;">
+            <p class="">
+              Account For Us is the only application that helps you manage informal finance, and create opportunities for nonprofits and community banks to capitalize community solutions.
+            </p>
+          </div>
+
+          <div class="block">
+            {{ partial "join_button.html" }}
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="block content content-container mt-6 p-3">
+      <div class="columns">
+        <div class="column has-text-centered">
+          <img src="img/screenshots/section-receiving.png" style="height: 500px;" class='screenshot' />
+        </div>
+        <div class="column">
+          <h1>Social Credit Network</h1>
+          <p>
+            A central component of formal credit markets is that each borrower knows how much credit they have available at any time. Knowing how much credit a potential borrower has available provides a psychological sense of financial security, even when one is not borrowing.
+          </p>
+          <p>
+            Account For Us reveals social credit lines by enabling people to report how much they would be willing to lend others if they needed a loan. The increased visibility into social credit lines will decrease reliance on payday lenders.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="homepage-content">
+      <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+      {{.Content}}
+    </div>
   </main>
 {{ end }}
