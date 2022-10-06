@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://accountforus.com/'
 languageCode = 'en-us'
 title = 'Account For Us'
 theme = 'account-for-us'
