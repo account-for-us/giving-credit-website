@@ -5,7 +5,7 @@ layout: "single"
 type: "page"
 draft: false
 subtitle: 
-style_classes: "has-background-white-ter"
+style_classes: ""
 ---
 
 <div class="columns">
@@ -17,7 +17,7 @@ style_classes: "has-background-white-ter"
         </p>
     </div>
     <div class="column is-one-half has-text-centered">
-        <img src="/img/people/man-blue-yellow.png">
+        <img src="/img/people/man-hands-in-pockets.png">
     </div>
 </div>
 

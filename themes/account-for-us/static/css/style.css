@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 .nav-container {
   max-width: 1000px;
   margin: 0px auto;
@@ -32,6 +33,11 @@
 
 .text-shadow-beige {
   text-shadow: 1px 1px 5px #c99a0c;
+}
+
+.has-background-color-primary {
+  background-color: #0D8134;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
