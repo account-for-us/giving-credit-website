@@ -1,9 +1,16 @@
-<section class="hero has-background-color-primary {{ .Params.style_classes }}">
+<section class="hero has-background-color-primary {{ .Params.style_classes }} mb-6">
     <div class="hero-body has-text-left">
-        <div class="content-container">
-            <p class="title has-text-white">{{ .Params.title }}</p>
-            {{ if .Params.subtitle }}
-                <p class="subtitle">{{ .Params.subtitle }}</p>
+        <div class="content-container columns is-mobile">
+            <div class="column">
+                <p class="title has-text-white is-size-1">{{ .Params.title }}</p>
+                {{ if .Params.subtitle }}
+                    <p class="subtitle has-text-white mt-3 is-size-4">{{ .Params.subtitle }}</p>
+                {{ end }}
+            </div>
+            {{ if .Params.image }}
+            <div class="column has-text-right">
+                <img src="{{ .Params.image }}" />
+            </div>
             {{ end }}
         </div>
     </div>

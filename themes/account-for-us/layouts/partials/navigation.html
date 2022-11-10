@@ -15,29 +15,40 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="{{ "about" | relURL }}">
-                About
+            <a class="navbar-item" href="{{ "partner" | relURL }}">
+                Partner
             </a>
 
             <!--
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                    Partners
+                <a href="/partner" class="navbar-link">
+                    Partner
                 </a>
 
                 <div class="navbar-dropdown">
-                    <a href="/partners/nonprofit" class="navbar-item">
+                    <a class="navbar-item">
+                        Credit Union or Community Bank
+                    </a>
+                    <a href="/partner/nonprofit" class="navbar-item">
                         Nonprofit
                     </a>
                     <a class="navbar-item">
-                        CDFI
+                        Employer
+                    </a>
+                    <a class="navbar-item">
+                        Religious Group
+                    </a>
+                    <a class="navbar-item">
+                        Mutual Aid
                     </a>
                 </div>
             </div>
-
+            -->
+            
+            <!--
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                    Solutions
+                    Platform
                 </a>
 
                 <div class="navbar-dropdown">
@@ -49,10 +60,18 @@
                         Cash transfers
                     </a>
 
+                    <a class="navbar-item">
+                        Analytics
+                    </a>
+
                 </div>
             </div>
             -->
         
+            <a class="navbar-item" href="{{ "about" | relURL }}">
+                About
+            </a>
+
         </div>
 
     </div>
