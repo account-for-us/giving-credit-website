@@ -25,10 +25,7 @@ image: "/img/people/man-hands-in-pockets.png"
 </div>
 
 <div class="block has-text-centered">
-    <a href="" class="button has-background-color-primary has-text-white is-medium">
-        <i class="fas fa-download mr-2"></i> 
-        Account For Us Slide Deck
-    </a>
+    {{< resources/slide_deck >}}
 </div>
 
 
