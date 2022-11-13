@@ -6,33 +6,74 @@ type: "page"
 draft: false
 subtitle: "Improve the financial health of your constituents by supporting community finance"
 style_classes: ""
-image: "/img/partners/partner-hero-2.png"
+image: "/img/partners/partner-hero.png"
 ---
 
+# Create a fund to support community finance
 
 <div class="columns">
     <div class="column">
         <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            The communities you serve are actively supporting each other (whether you know it or not!). Account For Us enables your organization to capitalize informal community financial networks your constituents contribute to and rely on.
         </p>
         <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Using Account For Us, you can establish funds that support your communities.
         </p>
     </div>
-    <div class="column has-text-centered">
-        <div class="box">
-            <h1>Resources</h1>
-            <div class="">
-                <div class="section">
-                    {{< resources/pilot_partner >}}
-                </div>
-                <div class="section">
-                    {{< resources/slide_deck >}}
-                </div>
-            </div>
-        </div>
-        {{< calendly >}}
+    <div class="column is-one-third has-text-centered">
+        {{< resources/pilot_partner >}}
     </div>
 </div>
 
+- **Loan Guarantee Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
+- **Reward Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
+- **Cash Transfer Fund** - Select constituents to send direct cash transfers to.
+- **Social Credit Fund** - Give credit directly to constituents, offering zero-interest loans when they need it.
+
+<div class="block has-text-centered">
+    {{< calendly >}}
+</div>
+
+Account For Us provides a simple administration console your organization can use to manage the fund, support constituents, and access detailed analytics reports showing the outcomes people in community crate.
+
+<div class="block">
+    <img src="/img/screenshots/partner-loan-guarantee-fund.png" class="screenshot p-4" />
+</div>
+
+# Why support community finance?
+
+<div class="columns">
+    <div class="column is-one-third has-text-centered">
+        {{< resources/community_finance_fact_sheet >}}
+    </div>
+    <div class="column">
+        <p>
+            Faced with financial exclusion, people turn to their social networks to meet their financial needs. Community finance is a vital source of capital, especially in low-income communities of color. 
+        </p>
+        <p>
+            We have compiled research on community finance and conducted extensive interviews with people engaged in these informal networks. Check out our Community Finance Fact sheet to learn more about this important but overlooked financial activity.
+        </p>
+    </div>
+</div>
+
+# What is Account For Us?
+
+<div class="columns">
+    <div class="column">
+        <p>
+            Account For Us is a financial technology nonprofit supporting community finance. Account For Us is being incubated at Princeton University. Check out our <a href="/about">about page</a> or download our slide deck to learn more.
+        </p>
+        <p>
+            Use the link below to <a href="https://calendly.com/david-ian-henderson/account-for-us?month=2022-11">schedule an introductory call</a>. We would love to learn more about your organization and explore ways to 
+            collaborate.
+        </>
+    </div>
+     <div class="column is-one-third has-text-centered">
+        {{< resources/slide_deck >}}
+     </div>
+</div>
+
+<div class="block has-text-centered">
+    {{< calendly >}}
+</div>
 

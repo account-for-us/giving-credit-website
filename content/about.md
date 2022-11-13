@@ -24,8 +24,13 @@ image: "/img/people/man-hands-in-pockets.png"
     </div>
 </div>
 
-<div class="block has-text-centered">
-    {{< resources/slide_deck >}}
+<div class="columns has-text-centered">
+    <div class="column">
+        {{< resources/slide_deck >}}
+    </div>
+    <div class="column">
+        {{< resources/community_finance_fact_sheet >}}
+    </div>
 </div>
 
 
