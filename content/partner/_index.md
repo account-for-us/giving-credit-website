@@ -25,6 +25,8 @@ image: "/img/partners/partner-hero.png"
     </div>
 </div>
 
+## Fund Types
+
 - **Loan Guarantee Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
 - **Reward Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
 - **Cash Transfer Fund** - Select constituents to send direct cash transfers to.
@@ -33,6 +35,8 @@ image: "/img/partners/partner-hero.png"
 <div class="block has-text-centered">
     {{< calendly >}}
 </div>
+
+## Account For Us is easy to administer
 
 Account For Us provides a simple administration console your organization can use to manage the fund, support constituents, and access detailed analytics reports showing the outcomes people in community crate.
 
