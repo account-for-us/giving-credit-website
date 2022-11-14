@@ -28,7 +28,7 @@ image: "/img/partners/partner-hero.png"
 ## Fund Types
 
 - **Loan Guarantee Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
-- **Reward Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
+- **Reward Fund** - Offer cash rewards for outcomes people achieve for themselves or help others achieve through their community finance activity.
 - **Cash Transfer Fund** - Select constituents to send direct cash transfers to.
 - **Social Credit Fund** - Give credit directly to constituents, offering zero-interest loans when they need it.
 
@@ -55,7 +55,7 @@ Account For Us provides a simple administration console your organization can us
             Faced with financial exclusion, people turn to their social networks to meet their financial needs. Community finance is a vital source of capital, especially in low-income communities of color. 
         </p>
         <p>
-            We have compiled research on community finance and conducted extensive interviews with people engaged in these informal networks. Check out our Community Finance Fact sheet to learn more about this important but overlooked financial activity.
+            We have compiled research on community finance and conducted extensive interviews with people engaged in these informal networks. Check out our <a href="https://docs.google.com/document/d/17qWew8FgGYBy88TfY_-P4YhBbYm-eYOm6ssa73c-kfo">Community Finance Fact Sheet</a> to learn more about this important but overlooked financial activity.
         </p>
     </div>
 </div>
