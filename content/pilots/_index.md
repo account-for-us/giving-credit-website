@@ -15,18 +15,18 @@ image: "/img/partners/pilot-hero.png"
     <tr>
         <th>Organization</th>
         <th>Location</th>
-        <th>Fund Type</th>
+        <th>Fund</th>
         <th>Launch Date</th>
     </tr>
     <tr>
         <td>
-            <a href="/pilots/neighborhood-allies">Neighborhood Allies</a>
+            Neighborhood Allies
         </td>
         <td>
             Pittsburgh, PA
         </td>
         <td>
-            Loan Guarantee Fund
+            $10,000 loan guarantee fund, $500 in loan guarantees to 20 informal lenders.
         </td>
         <td>
             Fall 2022
