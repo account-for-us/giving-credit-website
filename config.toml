@@ -1,6 +1,6 @@
-baseURL = 'http://accountforus.com/'
+baseURL = 'http://givingcredit.com/'
 languageCode = 'en-us'
-title = 'Account For Us'
-theme = 'account-for-us'
+title = 'Giving Credit'
+theme = 'giving-credit'
 [markup.goldmark.renderer]
 unsafe= true

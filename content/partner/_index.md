@@ -14,10 +14,10 @@ image: "/img/partners/partner-hero.png"
 <div class="columns">
     <div class="column">
         <p>
-            The communities you serve are actively supporting each other (whether you know it or not!). Account For Us enables your organization to capitalize informal community financial networks your constituents contribute to and rely on.
+            The communities you serve are actively supporting each other (whether you know it or not!). Giving Credit enables your organization to capitalize informal community financial networks your constituents contribute to and rely on.
         </p>
         <p>
-            Using Account For Us, you can establish funds that support your communities.
+            Using Giving Credit, you can establish funds that support your communities.
         </p>
     </div>
     <div class="column is-one-third has-text-centered">
@@ -36,9 +36,9 @@ image: "/img/partners/partner-hero.png"
     {{< calendly >}}
 </div>
 
-## Account For Us is easy to administer
+## Giving Credit is easy to administer
 
-Account For Us provides a simple administration console your organization can use to manage the fund, support constituents, and access detailed analytics reports showing the outcomes people in community crate.
+Giving Credit provides a simple administration console your organization can use to manage the fund, support constituents, and access detailed analytics reports showing the outcomes people in community crate.
 
 <div class="block">
     <img src="/img/screenshots/partner-loan-guarantee-fund.png" class="screenshot p-4" />
@@ -60,12 +60,12 @@ Account For Us provides a simple administration console your organization can us
     </div>
 </div>
 
-# What is Account For Us?
+# What is Giving Credit?
 
 <div class="columns">
     <div class="column">
         <p>
-            Account For Us is a financial technology nonprofit supporting community finance. Account For Us is being incubated at Princeton University. Check out our <a href="/about">about page</a> or download our slide deck to learn more.
+            Giving Credit is a financial technology nonprofit supporting community finance. Giving Credit is being incubated at Princeton University. Check out our <a href="/about">about page</a> or download our slide deck to learn more.
         </p>
         <p>
             Use the link below to <a href="https://calendly.com/david-ian-henderson/account-for-us?month=2022-11">schedule an introductory call</a>. We would love to learn more about your organization and explore ways to 
