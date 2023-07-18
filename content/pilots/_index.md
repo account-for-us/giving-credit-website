@@ -11,28 +11,7 @@ image: "/img/partners/pilot-hero.png"
 
 
 
-<table class="table is-hoverable is-fullwidth is-bordered">
-    <tr>
-        <th>Organization</th>
-        <th>Location</th>
-        <th>Fund</th>
-        <th>Launch Date</th>
-    </tr>
-    <tr>
-        <td>
-            Neighborhood Allies
-        </td>
-        <td>
-            Pittsburgh, PA
-        </td>
-        <td>
-            $10,000 loan guarantee fund, $500 in loan guarantees to 20 informal lenders.
-        </td>
-        <td>
-            Fall 2022
-        </td>
-    </tr>
-</table>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrFhwgQuRuAuSjmC?backgroundColor=yellowLight&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 <div class="section has-text-centered">
     <a href="/partner" class="button is-rounded has-background-color-primary has-text-white">
