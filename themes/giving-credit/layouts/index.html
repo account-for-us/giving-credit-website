@@ -128,4 +128,13 @@
       {{.Content}}
     </div>
   </main>
+
+  <!-- redirected if logged in to app.givingcredit.org -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  <script type="text/javascript">
+    let authenticated = Cookies.get('authenticated', {domain: 'givingcredit.org'});
+    if (authenticated == 'true') {
+      window.location.replace("https://app.givingcredit.org");
+    }
+  </script>
 {{ end }}
