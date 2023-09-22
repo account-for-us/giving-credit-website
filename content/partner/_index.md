@@ -25,13 +25,6 @@ image: "/img/partners/partner-hero.png"
     </div>
 </div>
 
-## Fund Types
-
-- **Loan Guarantee Fund** - Extend loan guarantees to your constituents who are making peer-loans to people in their networks.
-- **Reward Fund** - Offer cash rewards for outcomes people achieve for themselves or help others achieve through their community finance activity.
-- **Cash Transfer Fund** - Select constituents to send direct cash transfers to.
-- **Social Credit Fund** - Give credit directly to constituents, offering zero-interest loans when they need it.
-
 <div class="block has-text-centered">
     {{< calendly >}}
 </div>
