@@ -23,7 +23,7 @@ image: ""
     One-page memos on the intersections of Community Finance and various social issues.
 </p>
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/appMJLWCTnxPxMuOU/shrJxcnLPpO8qXe9F?backgroundColor=tealDusty" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/appMJLWCTnxPxMuOU/shrJxcnLPpO8qXe9F?backgroundColor=tealDusty" frameborder="0" onmousewheel="" width="100%" height="833" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 <div class="section has-text-centered">
     <a href="/partner" class="button is-rounded has-background-color-primary has-text-white">
