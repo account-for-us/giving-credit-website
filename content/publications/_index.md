@@ -20,7 +20,7 @@ image: ""
 <h1 class="title">Communities of Credit</h1>
 
 <p class="is-size-5">
-    One-page memos on the intersections of Community Finance and various social issues.
+    Brief memos on Community Finance in various social contexts.
 </p>
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/appMJLWCTnxPxMuOU/shrJxcnLPpO8qXe9F?backgroundColor=tealDusty" frameborder="0" onmousewheel="" width="100%" height="833" style="background: transparent; border: 1px solid #ccc;"></iframe>
